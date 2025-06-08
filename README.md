@@ -10,6 +10,9 @@ Proyek ini merupakan implementasi metode numerik Euler untuk mensimulasikan penu
 
 ## Hasil dan Analisis
 ![Image](https://github.com/user-attachments/assets/11e3936e-b584-4506-9ede-7d5bd64ca4a6)
+![Image](https://github.com/user-attachments/assets/b21b179b-d4e7-4fb4-8e64-1bd1f9391bb7)
+![Image](https://github.com/user-attachments/assets/29ae4014-11b4-47b5-87b7-5d8af65d66ee)
+
 Program simulasi yang dikembangkan dengan metode Euler berhasil menggambarkan dinamika penurunan suhu kopi dari waktu ke waktu secara numerik. Berdasarkan hasil simulasi dengan variasi langkah waktu, diperoleh bahwa akurasi metode ini sangat bergantung pada besarnya interval waktu yang digunakan.
 
 Pada langkah waktu yang lebih besar, seperti Δt = 20 detik, perbedaan antara hasil simulasi dan solusi eksak menjadi cukup mencolok, terutama mendekati akhir periode pengamatan. Hal ini ditunjukkan oleh grafik yang memperlihatkan penyimpangan kurva Euler dari bentuk eksponensial ideal. Nilai error absolut cenderung meningkat seiring waktu, mencerminkan akumulasi kesalahan khas dari pendekatan Euler dengan interval besar.
